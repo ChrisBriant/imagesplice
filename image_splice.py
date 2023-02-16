@@ -57,10 +57,10 @@ def main ():
                 spliced_image.paste(img, (img_x, img_y)) 
     #Draw lines between the images to form a grid
     draw = ImageDraw.Draw(spliced_image)
-    draw.line((0, height, spliced_image.width, height), fill='black')
-    draw.line((0, 2*height, spliced_image.width, 2*height), fill='black')
-    draw.line((width, 0, width, spliced_image.height), fill='black')
-    draw.line((2*width, 0, 2*width, spliced_image.height), fill='black')
+    draw.line((0, height, spliced_image.width, height), fill='#fff')
+    draw.line((0, 2*height, spliced_image.width, 2*height), fill='#fff')
+    draw.line((width, 0, width, spliced_image.height), fill='#fff')
+    draw.line((2*width, 0, 2*width, spliced_image.height), fill='#fff')
 
     # Save the spliced and resized image to the output path
     spliced_image.save(outfile)

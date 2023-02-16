@@ -1,10 +1,10 @@
-#IMAGE SPLICE
+# IMAGE SPLICE
 
 Python script to splice images together in a grid.
 
 To run
 
-python3 image_splice.py <grid_dimensions> <folders=<comma seperated list of folders>> <image_height> <image_width> <output_filename>
+python3 image_splice.py <grid_dimensions> <folders=(comma seperated list of folders)> <image_height> <image_width> <output_filename>
 
 Exmaple:
 
